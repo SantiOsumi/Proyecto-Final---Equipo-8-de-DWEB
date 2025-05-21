@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+    header {
+    width: 100%;
+    background-color: #7056e5;
+  }
+    .top-header {
+    background-color: #3e3e3e;
+    padding: 20px 0;
+    text-align: center;
+  }
+    .logo {
+    max-width: 250px;
+    width: 100%;
+    height: auto;}
+    
+    .menu {
+    background: #f9f7ee;
+    text-align: center;
+    padding: 10px 10px;
+    display:inline-block;
+    position: relative;
+    bottom: 20px;
+  }
+    .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+    .menu a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+    .promo {
+    background-color: #7056e5;
+    color: white;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+    .banner {
+    width: 100%;
+    overflow: hidden;
+  }
+    .banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+    .seccion-productos {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+    .seccion-productos h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+    .contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+    .producto {
+    max-width: 160px;
+  }
+    .producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+    .producto p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+    .ver-mas {
+    margin-top: 30px;
+  }
+    .btn {
+    background-color: #e6e1d1;
+    color: #000;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+    .btn:hover {
+    background-color: #d4ceb9;
+  }
+    .seccion-mayoreo {
+    padding: 0;
+    margin: 0;
+  }
+    .seccion-mayoreo h2 {
+    font-size: 28px;
+    padding: 40px 0 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+    .contenedor-mayoreo {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+    .contenedor-mayoreo img {
+    width: 100%;
+    display: block;
+    border-radius: 0;
+    box-shadow: none;
+  }
+    .primera-compra {
+    background-color: #3e3e3e;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+    .primera-compra h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+    .formulario-descuento {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+    .formulario-descuento input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 300px;
+    max-width: 90%;
+    background-color: #f9f7ee;
+    color: #000;
+  }
+  .formulario-descuento button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #7056e5;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .formulario-descuento button:hover {
+    background-color: #5a42c7;
+  }
+  .contactanos {
+    background-color: #e8cc95;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .contactanos h2 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+    .iconos-contacto {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+    .iconos-contacto a {
+    font-size: 64px;
+    color: #7056e5;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+  }
+    .iconos-contacto a:hover {
+    transform: scale(1.2);
+  }
+    .footer {
+    background-color: #7056e5;
+    color: white;
+    padding: 15px 30px;
+    font-size: 14px;
+    text-align: left;
+  }
+  @media (max-width: 600px) {
+    .logo {
+      max-width: 180px;
+    }
+    .menu {position:relative;
+           bottom: 5px;}
+    .menu ul {
+      flex-direction: row;
+      gap: 10px;
+    }
+    .menu a {
+      font-size: 14px;
+    }
+    .promo {
+      font-size: 14px;
+      padding: 10px 0;
+    }
+    .producto {text-decoration: none;
+      max-width: 120px;
+    }
+    .seccion-productos h2 {
+      font-size: 22px;
+    }
+    .btn {
+      font-size: 14px;
+      padding: 8px 20px;
+    }
+  }
+  
